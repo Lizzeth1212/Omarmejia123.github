@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Trabajos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Catálogo de Trabajos</h1>
+  <button id="btn-menu">&#9776;</button>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="acercade.html">Acerca de</a></li>
+      <li><a href="recursos.html">Recursos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Trabajos por Parcial</h2>
+  
+  <!-- Aquí van los cuadros parciales y listas que ya tienes -->
+  <div class="cuadro-parcial">
+    <h3>Parcial 1</h3>
+    <ol>
+      <li>Diagrama de Flujo</li>
+      <li>Infografía Canva</li>
+      <!-- demás trabajos -->
+    </ol>
+  </div>
+  <div id="parcial1" class="project-details active">
+    <div class="detail-card" onclick="mostrarTarea('color.pdf')">
+      <h3>📄 Tarea 4 - Teoría del Color y Diseño Gráfico</h3>
+      <p>Haz clic para ver esta tarea del Parcial 1.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('usodeia11.pdf')">
+      <h3>📄 Tarea 3 - Uso de IA's</h3>
+      <p>Haz clic para ver esta tarea del Parcial 1.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('infografia.png')">
+      <h3>📄 Práctica de Piktochart o Canva</h3>
+      <p>Haz clic para ver esta tarea del Parcial 1.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('diagrama_triangulos.pdf')">
+      <h3>📄 Diagrama de Flujo - Determinación de Triángulos</h3>
+      <p>Haz clic para ver esta tarea del Parcial 1.</p>
+    </div>
+  </div>
+  
+  <div id="parcial2" class="project-details">
+    <div class="detail-card" onclick="mostrarTarea('menu_interactivo.html')">
+      <h3>📄 (Opcional) Menú Interactivo con JavaScript</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('frameworks_cdn.pdf')">
+      <h3>📄 Investigación de Frameworks y CDN</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('estilos_css.html')">
+      <h3>📄 Agregar Estilos CSS3 a la Página Web</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('pagina_basica.html')">
+      <h3>📄 Crear Página Web Básica con HTML</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('tema_sitio_web.pdf')">
+      <h3>📄 Elección y Creación de un Tema para Sitio Web</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('trafico_obregon.pdf')">
+      <h3>📄 Caso de Estudio: Tráfico en Ciudad Obregón</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('investigacion_metodos.png')">
+      <h3>📄 Investigación Explicativa vs Aplicada</h3>
+      <p>Haz clic para ver esta tarea del Parcial 2.</p>
+    </div>
+  </div>
+  
+  <div id="parcial3" class="project-details">
+    <div class="detail-card" onclick="mostrarTarea('formularios.html')">
+      <h3>📄 Formularios y Elementos de Entrada en HTML - Parte 1</h3>
+      <p>Haz clic para ver esta tarea del Parcial 3.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('etiquetas_table.html')">
+      <h3>📄 Aplicación de Etiquetas HTML - &lt;table&gt;</h3>
+      <p>Haz clic para ver esta tarea del Parcial 3.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('etiquetas_div_img.html')">
+      <h3>📄 Aplicación de Etiquetas HTML - &lt;div&gt;, &lt;img&gt;, etc.</h3>
+      <p>Haz clic para ver esta tarea del Parcial 3.</p>
+    </div>
+    <div class="detail-card" onclick="mostrarTarea('etiquetas_texto.html')">
+      <h3>📄 Aplicación de Etiquetas HTML - &lt;strong&gt;, &lt;b&gt;, &lt;em&gt;, etc.</h3>
+      <p>Haz clic para ver esta tarea del Parcial 3.</p>
+    </div>
+  </div>
+  
+  <div id="parcial4" class="project-details">
+    <div class="detail-card" onclick="mostrarVideoLocal('inspiracion.mp4')">
+      <h3>📄 Video para Punto Extra</h3>
+      <p>Haz clic para ver esta tarea del Parcial 4.</p>
+    </div>
+  </div>
+  
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Omar Mejia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
